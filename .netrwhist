@@ -1,11 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/francoisdevilliers/Development/masters/stanford topic modeling toolbox/scala'
-let g:netrw_dirhist_2='/Users/francoisdevilliers/Development/rails/sterling_rails/sterling/db/migrate'
-let g:netrw_dirhist_3='/usr/local/rvm/gems/ruby-1.9.2-p180/gems/will_paginate-3.0.pre2/lib/will_paginate/finders'
-let g:netrw_dirhist_4='/Users/francoisdevilliers/Development/rails/sterling_rails/sterling/db/seed'
-let g:netrw_dirhist_5='/Users/francoisdevilliers/Development/follow-what-you-preach/app'
-let g:netrw_dirhist_6='/Users/francoisdevilliers/Development/follow-what-you-preach/app/controllers'
-let g:netrw_dirhist_7='/Users/francoisdevilliers/Documents/Arduino/blink_c'
-let g:netrw_dirhist_8='/Users/francoisdevilliers/Development/rails/sterling_rails/sterling/db/seed'
-let g:netrw_dirhist_9='/Users/pfdevilliers/.vim'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/pfdevilliers/Development/mark-my-links/config'
+let g:netrw_dirhist_2='/Users/pfdevilliers/Development/mark-my-links/app/assets/stylesheets'
+let g:netrw_dirhist_3='/Users/pfdevilliers/Development/iNventory/.git'
+let g:netrw_dirhist_4='/Users/pfdevilliers/Development/temperature-chart/js'
+let g:netrw_dirhist_5='/Users/pfdevilliers/Development/html5-advertisement/src'

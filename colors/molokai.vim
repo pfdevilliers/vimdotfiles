@@ -39,6 +39,7 @@ hi Delimiter       guifg=#8F8F8F
 hi Float           guifg=#AE81FF
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
+hi Builtin         guifg=#AE81FF               gui=bold
 " }}}
 " Diffs {{{
 hi DiffAdd                       guibg=#0F1D0B
@@ -100,6 +101,7 @@ hi Statement       guifg=#F92672               gui=bold
 hi StatusLine      guifg=#CD5907 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
+" Structure is the light blue color
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
@@ -143,6 +145,7 @@ if &t_Co > 255
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
    hi Delimiter       ctermfg=241
+   hi Builtin         ctermfg=135               cterm=bold
 
    hi EasyMotionTarget ctermfg=11
    hi EasyMotionShade  ctermfg=8
@@ -207,6 +210,8 @@ if &t_Co > 255
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
+   " @pfdevilliers added this shit
+   hi InheritUnderlined      ctermfg=118               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
